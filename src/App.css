@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'YourCustomFont'; /* Choose a name for your font family */
+  src: url('./assets/fonts/C64_Pro_Mono-STYLE.ttf') format('truetype'); /* Adjust path and format */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'YourCustomFont', sans-serif; /* Fallback to sans-serif if custom font fails */
+  background-color: lightgray;
+}
+
+a {
+  color: yellow;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: yellow;
+}
+
+
+.pageTitle {
+  background-color: rgb(170, 170, 170);
+  padding: 10px 5px;
+  /* border-bottom: 3px solid rgb(52, 52, 52); */
+  color: rgb(90, 90, 90);
+  font-size: 18px;
+  text-shadow: 1px 1px 0px lightgray;
+  box-shadow: 5px 5px 0px rgb(118, 118, 118); /* Adjust values as needed */
+}
+
+.pageContainer {
+  max-width: 1200px; /* Prevents content from stretching too wide */
+  margin: 0 auto; /* Centers content horizontally */
+  padding: 0px 20px; /* Adds some space on left and right */
+}
+
+
+.com64box {
+  position: relative;
+  background-color: black; /* Black background */
+  color: lightgrey; /* White text */
+  padding: 10px 5px; /* Add some spacing inside */
+  margin: 20px 0px;
+  /* font-size: 16px; */
+  box-shadow: 5px 5px 0px rgb(118, 118, 118); /* Adjust values as needed */
+}
+
+.com64inner {
+  position: relative;
+  background-color: black; /* Black background */
+  color: lightgrey; /* White text */
+  padding: 15px 10px; /* Space inside the white border */
+  border: 3px solid lightgrey; /* White border */
+  overflow: hidden;
+  /* font-size: 16px; */
+}
+
+.com64boxtitle {
+  position: absolute;
+  top: 0; /* Align at the top */
+  left: 3%;
+  z-index: 2; /* Ensure it's above the other div */
+  background: black; /* Optional: Add background to make text readable */
+  color: darkcyan;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+
+
+.headshotImg {
+  float: right;
+  width: 150px; /* Set the width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.com64bullet {
+  color: lightgray;
+  padding: 10px 0px;
+
+}
+
+.com64subbullet {
+  color: lightgrey;
+  font-size: 14px;
+  padding: 5px 30px
+}
+
+.bulletPoint {
+  color:darkmagenta;
+}
+
+/* .com64boxtitle:hover {
+  color:darkcyan
+} */
+
+/* .com64bullet:hover {
+  color:darkcyan
+}
+
+.com64subbullet:hover {
+  color:darkcyan;
+} */
+
