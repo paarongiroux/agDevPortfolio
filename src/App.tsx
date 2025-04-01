@@ -43,20 +43,20 @@ function App() {
 
           <div className='com64box'>
             <div className='com64boxtitle'>
-              Professional Experience
+              Work Experience
             </div>
             <div className='com64inner'>
               <div className='com64bullet'>
                 <span className="bulletPoint">*</span> Software Engineer @BlueCat - 2021-2024
               </div>
               <div className='com64subbullet'>
-                - Health Telemtry, RESTful API design
+                - Health Telemetry, RESTful API design
               </div>
               <div className='com64bullet'>
                 <span className="bulletPoint">*</span> Software Developer @CoroSolar - 2020-2021
               </div>
               <div className='com64subbullet'>
-                - Embedded systems, Python GUI for monitoring trackers
+                - Embedded systems, Python GUI for monitoring solar trackers
               </div>
               <div className='com64bullet'>
                 <span className="bulletPoint">*</span> Software Developer @USGS - 2019-2020
