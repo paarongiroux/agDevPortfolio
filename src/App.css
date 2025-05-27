@@ -96,6 +96,32 @@ a:hover {
   color:darkmagenta;
 }
 
+p {
+  line-height: 1.6;
+}
+
+.image-container {
+  text-align: left;
+}
+
+.image-container.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  word-wrap: break-word;
+}
+
 /* .com64boxtitle:hover {
   color:darkcyan
 } */
@@ -108,3 +134,82 @@ a:hover {
   color:darkcyan;
 } */
 
+
+
+.game {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  border: 1px solid #333;
+}
+
+.top-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #333;
+}
+
+.stock, .waste, .foundation-slot, .tableau-column {
+  width: 80px;
+  min-height: 120px;
+  position: relative;
+}
+
+.foundations {
+  display: flex;
+  gap: 12px; /* space between foundation slots */
+}
+
+.card {
+  width: 80px;
+  height: 120px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: white;
+  color: black;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.card.face-up {
+  background: white;
+}
+
+.card.back {
+  background: blue;
+  border: 1px solid #001F3F;
+}
+
+.empty-slot {
+  width: 80px;
+  height: 120px;
+  border: 2px dashed #ccc;
+  border-radius: 6px;
+}
+
+.tableau {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 8px;
+  padding-top: 150px;
+  border-radius: 6px;
+  border: 1px solid #333;
+}
+
+.tableau-column .card {
+  position: relative;
+  margin-top: -120px;
+}
+
+.tableau-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* space between cards */
+}
+
+.red-suit {
+  color: red;
+}
